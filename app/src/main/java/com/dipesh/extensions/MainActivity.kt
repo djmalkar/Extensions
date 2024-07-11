@@ -27,6 +27,9 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
+
+        baseContext.toast("Hello from MainActivity")
+        "dipesh_gmail.com".isValidEmail()
     }
 }
 
