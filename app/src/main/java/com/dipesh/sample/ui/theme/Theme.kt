@@ -1,4 +1,4 @@
-package com.dipesh.extensions.ui.theme
+package com.dipesh.sample.ui.theme
 
 import android.app.Activity
 import android.os.Build

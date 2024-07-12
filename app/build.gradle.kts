@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.dipesh.extensions"
+    namespace = "com.dipesh.sample"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.dipesh.extensions"
+        applicationId = "com.dipesh.sample"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -59,8 +59,6 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
-    testImplementation(libs.junit)
-    androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(platform(libs.androidx.compose.bom))
     androidTestImplementation(libs.androidx.ui.test.junit4)

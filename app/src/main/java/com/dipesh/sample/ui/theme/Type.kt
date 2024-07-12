@@ -1,4 +1,4 @@
-package com.dipesh.extensions.ui.theme
+package com.dipesh.sample.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
