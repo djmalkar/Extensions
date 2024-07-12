@@ -36,3 +36,15 @@ android {
 dependencies {
     implementation(libs.androidx.core.ktx)
 }
+
+afterEvaluate {
+    publishing {
+        publications {
+            register<MavenPublication>("release") {
+                groupId = "com.dipesh"
+                artifactId = "extensions"
+                version = "0.1.5"
+            }
+        }
+    }
+}
