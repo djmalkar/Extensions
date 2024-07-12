@@ -1,7 +1,7 @@
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.jetbrains.kotlin.android)
-    `maven-publish`
+    id("maven-publish")
 }
 
 android {
@@ -35,16 +35,4 @@ android {
 
 dependencies {
     implementation(libs.androidx.core.ktx)
-}
-
-afterEvaluate {
-    publishing {
-        publications {
-            register<MavenPublication>("release") {
-                groupId = "com.dipesh"
-                artifactId = "extensions"
-                version = "0.1.0"
-            }
-        }
-    }
 }
